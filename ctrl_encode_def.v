@@ -77,4 +77,7 @@
 `define PC_WRITE_OFF 2'b0
 `define PC_WRITE_ON 2'b1
 
-`define IF_ID_W
+`define IF_ID_FLUSH_OFF 1'b0
+`define IF_ID_FLUSH_ON 1'b1
+`define ID_EX_FLUSH_OFF 1'b0
+`define ID_EX_FLUSH_ON 1'b1
