@@ -1,6 +1,6 @@
 `include "ctrl_encode_def.v"
 
-module MUX_PC_SRC(pc_src_sel, xadr, illop, jr, jt, bt, pc_plus4, pc_src);
+module MUX_PC_SRC(pc_src_sel, xadr, illop, jr, jt, bt, pc, pc_src);
 input [2:0] pc_src_sel;
 input [31:0] xadr, illop, jr, jt, bt, pc_plus4;
 output reg[31:0] pc_src;
@@ -26,7 +26,7 @@ always@(*)begin
 			pc_src = bt;
 		end
 		`PCSRC_PLUS4:begin
-			pc_src = pc_plus4;
+			pc_src = pc + 4;
 		end
 	endcase
 end

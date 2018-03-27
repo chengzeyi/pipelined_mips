@@ -33,10 +33,10 @@
 `define ALU_SRL   5'b10010
 `define ALU_SRA   5'b10011
 
-`define ALU_SRC_A_RS 2'b0
-`define ALU_SRC_A_SHAMT 2'b1
-`define ALU_SRC_B_RT 2'b0
-`define ALU_SRC_B_LU 2'B1
+`define ALU_SRC_A_RS 1'b0
+`define ALU_SRC_A_SHAMT 1'b1
+`define ALU_SRC_B_RT 1'b0
+`define ALU_SRC_B_EXT 1'B1
 
 // GPR control signal
 `define GPR_RD   2'b00
@@ -69,14 +69,12 @@
 `define FU_ALUSRC_B_RT 2'b10
 `define FU_ALUSRC_B_LU 2'B11
 
-//LU
-`define LU_EXT 2'b0
-`define LU_ZERO 2'b1
-
 //HU
-`define PC_WRITE_OFF 2'b0
-`define PC_WRITE_ON 2'b1
+`define PC_WRITE_OFF 1'b0
+`define PC_WRITE_ON 1'b1
 
+`define IF_ID_WRITE_OFF 1'b0
+`define IF_ID_WRITE_ON 1'b1
 `define IF_ID_FLUSH_OFF 1'b0
 `define IF_ID_FLUSH_ON 1'b1
 `define ID_EX_FLUSH_OFF 1'b0
