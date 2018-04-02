@@ -60,6 +60,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 } {} {}} C:/altera/13.0sp1/pipelined_mips/instruction_def.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/instruction_def.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
+} {} {}} C:/altera/13.0sp1/pipelined_mips/ID_EX.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/ID_EX.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ID_EX
+
+Top level modules:
+	ID_EX
+
 } {} {}} C:/altera/13.0sp1/pipelined_mips/DM.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/DM.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module DM

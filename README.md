@@ -1,1 +1,1 @@
-# pipeline_mips
+# pipelined_mips
