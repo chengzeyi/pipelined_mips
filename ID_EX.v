@@ -52,6 +52,7 @@ always@(posedge clk)begin
         id_ex_dm_r <= `DM_R_OFF;
         id_ex_dm_w <= `DM_W_OFF;
         id_ex_pc_src_sel <= `PCSRC_PLUS4;
+        $display("ID_EX_FLUSH_ON");
     end
     else begin
         id_ex_instruction <= if_id_instruction;

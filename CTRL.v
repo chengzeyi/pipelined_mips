@@ -17,9 +17,6 @@ output reg dm_w;
 output reg alu_src_a_sel;
 output reg alu_src_b_sel;
 output reg[4:0] alu_op;
-// wb_signal: pc_src_sel-2:0 m2r_sel-4:3 gpr_w_sel-6:5
-// m_signal: dm_r-0 dm_w-1
-// ex_signal: alu_src_a_sel-0 alu_src_b_sel-1 alu_op-6:2
 
 wire[5:0] opcode;
 wire[5:0] funct;
@@ -53,7 +50,6 @@ always@(opcode or funct)begin
 			else begin
 				m2r_sel <= `M2R_ALU;
 			end
-
 			dm_r <= `DM_R_OFF;
 			dm_w <= `DM_W_OFF;
 			alu_src_b_sel <= `ALU_SRC_B_RT;

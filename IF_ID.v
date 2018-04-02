@@ -18,12 +18,15 @@ end
 always@(posedge clk)begin
     if(if_id_flush == `IF_ID_FLUSH_ON)begin
         if_id_instruction <= 0;
-        if_id_pc_plus4 <= 0;
+        $display("IF_ID_FLUSH_ON");
     end
     else if(if_id_write == `IF_ID_WRITE_ON)begin
         if_id_instruction <= instruction;
-        if_id_pc_plus4 <= pc + 4;
     end
+    else begin
+        $display("IF_ID_WRITE_OFF");
+    end
+    if_id_pc_plus4 <= pc + 4;
 end
 
 endmodule
