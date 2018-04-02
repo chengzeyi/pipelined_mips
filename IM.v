@@ -1,7 +1,7 @@
 
 module IM(ins_address, instruction);
 
-input	[4:0]		ins_address; //指令地址
+input	[31:0]		ins_address; //指令地址
 
 output	reg[31:0]	instruction; //指令代码
 
@@ -13,5 +13,5 @@ initial begin
 end
 
 always@(ins_address)
-		instruction = ins_mem[ins_address];
+		instruction = ins_mem[ins_address[6:2]];
 endmodule

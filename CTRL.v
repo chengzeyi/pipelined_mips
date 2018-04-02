@@ -3,9 +3,9 @@
 
 module CTRL(
 	instruction, 
-	gpr_w_sel, m2r_sel, ext_op
-	alu_src_a_sel, alu_src_b_sel, alu_op
-	dm_r, dm_w, pc_src_sel,);
+	gpr_w_sel, m2r_sel, ext_op,
+	alu_src_a_sel, alu_src_b_sel, alu_op,
+	dm_r, dm_w, pc_src_sel);
 
 input [31:0] instruction;
 output reg[1:0] gpr_w_sel;
@@ -24,18 +24,6 @@ output reg[4:0] alu_op;
 wire[5:0] opcode;
 wire[5:0] funct;
 
-initial begin
-	gpr_w_sel <= `GPR_XP;
-	pc_src_sel <= `PCSRC_PLUS4;
-	m2r_sel <= `M2R_ALU;
-	ext_op <= `EXT_ZERO;
-	dm_r <= `DM_R_OFF;
-	dm_w <= `DM_W_OFF;
-	alu_src_a_sel <= `ALU_SRC_A_RS;
-	alu_src_b_sel <= `ALU_SRC_B_RT;
-	alu_op <= `ALU_NOP;
-end
-
 assign opcode = instruction[31:26];
 assign funct = instruction[5:0];
 
@@ -52,7 +40,7 @@ always@(opcode or funct)begin
 				gpr_w_sel <= `GPR_RD;
 			end
 
-			if(funct == `INSTR_JR_FUNCT || funct == `INSTR_JALR_FUNCT)begin
+			if((funct == `INSTR_JR_FUNCT) || (funct == `INSTR_JALR_FUNCT))begin
 				pc_src_sel <= `PCSRC_JR;
 			end
 			else begin
@@ -69,7 +57,7 @@ always@(opcode or funct)begin
 			dm_r <= `DM_R_OFF;
 			dm_w <= `DM_W_OFF;
 			alu_src_b_sel <= `ALU_SRC_B_RT;
-			case(funct)begin
+			case(funct)
 				`INSTR_ADD_FUNCT:begin
 					alu_src_a_sel <= `ALU_SRC_A_RS;
 					alu_op <= `ALU_ADD;
@@ -121,6 +109,7 @@ always@(opcode or funct)begin
 				`INSTR_SRA_FUNCT:begin
 					alu_src_a_sel <= `ALU_SRC_A_SHAMT;
 					alu_op <= `ALU_SRA;
+				end
 				`INSTR_SLLV_FUNCT:begin
 					alu_src_a_sel <= `ALU_SRC_A_RS;
 					alu_op <= `ALU_SLL;
@@ -130,6 +119,7 @@ always@(opcode or funct)begin
 					alu_op <= `ALU_SRA;
 				end
 			endcase
+		end
 		`INSTR_LW_OP:begin
 			gpr_w_sel <= `GPR_RT;
 			pc_src_sel <= `PCSRC_PLUS4;
@@ -207,16 +197,16 @@ always@(opcode or funct)begin
 			alu_op <= `ALU_XOR;
 		end
 		`INSTR_LUI_OP:begin
-			gpr_w_sel <= `GRP_RT;
+			gpr_w_sel <= `GPR_RT;
 			pc_src_sel <= `PCSRC_PLUS4;
 			m2r_sel <= `M2R_ALU;
 			ext_op <= `EXT_HIGHPOS;
-			dm_r <= `DM_R_OFF；
+			dm_r <= `DM_R_OFF;
 			dm_w <= `DM_W_OFF;
 			alu_src_a_sel <= `ALU_SRC_A_RS;
 			alu_src_b_sel <= `ALU_SRC_B_EXT;
 			alu_op <= `ALU_ADDU;
-		end;
+		end
 		`INSTR_SLTI_OP:begin
 			gpr_w_sel <= `GPR_RT;
 			pc_src_sel <= `PCSRC_PLUS4;

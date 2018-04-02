@@ -1,0 +1,126 @@
+C:/altera/13.0sp1/pipelined_mips/MUX_M2R.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/MUX_M2R.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MUX_M2R
+
+Top level modules:
+	MUX_M2R
+
+} {} {}} C:/altera/13.0sp1/pipelined_mips/HU.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/HU.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module HU
+
+Top level modules:
+	HU
+
+} {} {}} C:/altera/13.0sp1/pipelined_mips/CTRL.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/CTRL.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module CTRL
+
+Top level modules:
+	CTRL
+
+} {} {}} C:/altera/13.0sp1/pipelined_mips/IM.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/IM.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module IM
+
+Top level modules:
+	IM
+
+} {} {}} C:/altera/13.0sp1/pipelined_mips/mips_tb.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/mips_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mips_tb
+
+Top level modules:
+	mips_tb
+
+} {} {}} C:/altera/13.0sp1/pipelined_mips/MEM_WB.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/MEM_WB.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MEM_WB
+
+Top level modules:
+	MEM_WB
+
+} {} {}} C:/altera/13.0sp1/pipelined_mips/BCTRL.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/BCTRL.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module BCTRL
+
+Top level modules:
+	BCTRL
+
+} {} {}} C:/altera/13.0sp1/pipelined_mips/ctrl_encode_def.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/ctrl_encode_def.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+
+} {} {}} C:/altera/13.0sp1/pipelined_mips/instruction_def.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/instruction_def.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+
+} {} {}} C:/altera/13.0sp1/pipelined_mips/MIPS.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/MIPS.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MIPS
+
+Top level modules:
+	MIPS
+
+} {} {}} C:/altera/13.0sp1/pipelined_mips/EXT.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/EXT.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module EXT
+
+Top level modules:
+	EXT
+
+} {} {}} C:/altera/13.0sp1/pipelined_mips/ID_EX.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/ID_EX.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ID_EX
+
+Top level modules:
+	ID_EX
+
+} {} {}} C:/altera/13.0sp1/pipelined_mips/DM.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/DM.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module DM
+
+Top level modules:
+	DM
+
+} {} {}} C:/altera/13.0sp1/pipelined_mips/ALU.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/ALU.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/altera/13.0sp1/pipelined_mips/EX_MEM.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/EX_MEM.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module EX_MEM
+
+Top level modules:
+	EX_MEM
+
+} {} {}} C:/altera/13.0sp1/pipelined_mips/IF_ID.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/IF_ID.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
+} {} {}} C:/altera/13.0sp1/pipelined_mips/MUX_PC_SRC.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/MUX_PC_SRC.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MUX_PC_SRC
+
+Top level modules:
+	MUX_PC_SRC
+
+} {} {}} C:/altera/13.0sp1/pipelined_mips/PC.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/PC.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module PCU
+
+Top level modules:
+	PCU
+
+} {} {}} C:/altera/13.0sp1/pipelined_mips/GPR.v {1 {vlog -work pipelined_mips C:/altera/13.0sp1/pipelined_mips/GPR.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module GPR
+
+Top level modules:
+	GPR
+
+} {} {}}

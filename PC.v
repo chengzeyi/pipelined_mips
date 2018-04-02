@@ -8,9 +8,6 @@ input pc_write;
 reg[31:0] pc; //程序计数器
 output [31:0] pc_out;
 
-initial begin
-	pc = 0;
-end
 assign pc_out = pc;
 always@(posedge reset)begin
 	pc = 0;

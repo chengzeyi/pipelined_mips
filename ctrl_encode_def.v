@@ -1,10 +1,10 @@
 // PCSrc select singal
-`define PCSRC_XADR 2'b101 // for exception
-`define PCSRC_ILLOP 2'b100 // for break
-`define PCSRC_JR 2'b011
-`define PCSRC_JT 2'b010
-`define PCSRC_BT 2'b001
-`define PCSRC_PLUS4 2'b000
+`define PCSRC_XADR 3'b101 // for exception
+`define PCSRC_ILLOP 3'b100 // for break
+`define PCSRC_JR 3'b011
+`define PCSRC_JT 3'b010
+`define PCSRC_BT 3'b001
+`define PCSRC_PLUS4 3'b000
 
 // EXT control signal
 `define EXT_ZERO    2'b00
@@ -50,24 +50,9 @@
 
 // Memory control signal
 `define DM_R_OFF 1'b0
-`define DM_R_ON 1'b0
+`define DM_R_ON 1'b1
 `define DM_W_OFF 1'b0
 `define DM_W_ON 1'b1
-
-// Forward unit signal
-`define FU_JR_RS 2'b00
-`define FU_JR_ALU 2'b01
-`define FU_JR_MR 2'b10
-`define FU_JR_RW 2'b11
-
-`define FU_ALUSRC_A_SHAMT 2'b00
-`define FU_ALUSRC_A_RW 2'b01
-`define FU_ALUSRC_A_ALU 2'b10
-`define FU_ALUSRC_A_RS 2'b11
-`define FU_ALUSRC_B_RW 2'b00
-`define FU_ALUSRC_B_ALU 2'b01
-`define FU_ALUSRC_B_RT 2'b10
-`define FU_ALUSRC_B_LU 2'B11
 
 //HU
 `define PC_WRITE_OFF 1'b0
