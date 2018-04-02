@@ -6,6 +6,6 @@ entity PCU is
         clk             : in     vl_logic;
         pc_src          : in     vl_logic_vector(31 downto 0);
         pc_write        : in     vl_logic;
-        pc_out          : out    vl_logic_vector(31 downto 0)
+        pc              : out    vl_logic_vector(31 downto 0)
     );
 end PCU;

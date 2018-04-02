@@ -64,7 +64,7 @@ wire [31:0] mux_m2r_gpr_fu_m2r_data;
 wire [31:0] id_ex_mux_pc_src_jt;
 assign id_ex_mux_pc_src_jt = {id_ex_bctrl_ex_mem_pc_plus4[31:28], id_ex_hu_fu_ex_mem_instruction[25:0], 2'b00};
 
-PCU pc(.reset(reset), .clk(clk), .pc_src(mux_pc_src_pc_pc_src), .pc_write(hu_pc_pc_write), .pc_out(pc_mux_pc_src_im_if_id_pc));
+PCU pc(.reset(reset), .clk(clk), .pc_src(mux_pc_src_pc_pc_src), .pc_write(hu_pc_pc_write), .pc(pc_mux_pc_src_im_if_id_pc));
 
 MUX_PC_SRC mux_pc_src(.pc_src_sel(id_ex_hu_mux_pc_src_pc_src_sel), .xadr(0), .illop(0), .jr(fu_mux_pc_src_jr_src), .jt(id_ex_mux_pc_src_jt), .bt(bctrl_mux_pc_src_bt), .pc(pc_mux_pc_src_im_if_id_pc), .pc_src(mux_pc_src_pc_pc_src));
 
