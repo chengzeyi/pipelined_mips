@@ -106,14 +106,6 @@ always@(opcode or funct)begin
 					alu_src_a_sel <= `ALU_SRC_A_SHAMT;
 					alu_op <= `ALU_SRA;
 				end
-				`INSTR_SLLV_FUNCT:begin
-					alu_src_a_sel <= `ALU_SRC_A_RS;
-					alu_op <= `ALU_SLL;
-				end
-				`INSTR_SRAV_FUNCT:begin
-					alu_src_a_sel <= `ALU_SRC_A_RS;
-					alu_op <= `ALU_SRA;
-				end
 			endcase
 		end
 		`INSTR_LW_OP:begin

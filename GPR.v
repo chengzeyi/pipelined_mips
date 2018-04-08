@@ -28,11 +28,6 @@ always@(negedge clk)begin
     end
     else if(gpr_w_sel == `GPR_RT)begin
         gpr[rt_sel_w] <= gpr_w_data;
-        gpr[rd_sel_w] <= gpr_w_data;
-        $display("GPR_WRITE: R[%02D]=%8X", rd_sel_w, gpr_w_data);
-    end
-    else if(gpr_w_sel == `GPR_RT)begin
-        gpr[rt_sel_w] <= gpr_w_data;
         $display("GPR_WRITE: R[%02D]=%8X", rt_sel_w, gpr_w_data);
     end
     else if(gpr_w_sel == `GPR_RA)begin

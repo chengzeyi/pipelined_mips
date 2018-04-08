@@ -76,23 +76,13 @@ always@(alu_src_a or alu_src_b or alu_op)begin
 			end
 		end
 		`ALU_SLL:begin
-			alu_result = alu_src_b;
-			for(temp = 0; temp < alu_src_a; temp = temp + 1)begin
-				alu_result = alu_result << 1;
-			end
+			alu_result = alu_src_b << alu_src_a;
 		end
 		`ALU_SRL:begin
-			alu_result = alu_src_b;
-			for(temp = 0; temp < alu_src_a; temp = temp + 1)begin
-				alu_result = alu_result >> 1;
-			end
+			alu_result = alu_src_b >> alu_src_a;
 		end
 		`ALU_SRA:begin
-			alu_result = alu_src_b;
-			for(temp = 0; temp < alu_src_a; temp = temp + 1)begin
-				alu_result = alu_result >> 1;
-				alu_result[31] = alu_result[30];
-			end
+			alu_result = alu_src_b >>> alu_src_a;
 		end
 	endcase
 end

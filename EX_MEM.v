@@ -24,24 +24,24 @@ output reg[1:0] ex_mem_m2r_sel;
 output reg ex_mem_dm_r;
 output reg ex_mem_dm_w;
 
-always@(posedge reset)begin
-    ex_mem_instruction <= 0;
-    ex_mem_alu_result <= 0;
-    ex_mem_dm_w_data <= 0;
-    ex_mem_gpr_w_sel <= `GPR_XP;
-    ex_mem_dm_r <= `DM_R_OFF;
-    ex_mem_dm_w <= `DM_W_OFF;
-end
-
-always@(posedge clk)begin
-    ex_mem_instruction <= id_ex_instruction;
-    ex_mem_pc_plus4 <= id_ex_pc_plus4;
-    ex_mem_alu_result <= alu_result;
-    ex_mem_dm_w_data <= dm_w_data;
-    ex_mem_gpr_w_sel <= id_ex_gpr_w_sel;
-    ex_mem_m2r_sel <= id_ex_m2r_sel;
-    ex_mem_dm_r <= id_ex_dm_r;
-    ex_mem_dm_w <= id_ex_dm_w;
+always@(posedge clk or posedge reset)begin
+	if(reset)begin
+		ex_mem_instruction <= 0;
+		ex_mem_pc_plus4 <= 0;
+		ex_mem_gpr_w_sel <= `GPR_XP;
+		ex_mem_dm_r <= `DM_R_OFF;
+		ex_mem_dm_w <= `DM_W_OFF;
+	end
+	else begin
+		ex_mem_instruction <= id_ex_instruction;
+		ex_mem_pc_plus4 <= id_ex_pc_plus4;
+		ex_mem_alu_result <= alu_result;
+		ex_mem_dm_w_data <= dm_w_data;
+		ex_mem_gpr_w_sel <= id_ex_gpr_w_sel;
+		ex_mem_m2r_sel <= id_ex_m2r_sel;
+		ex_mem_dm_r <= id_ex_dm_r;
+		ex_mem_dm_w <= id_ex_dm_w;
+	end
 end
 
 endmodule

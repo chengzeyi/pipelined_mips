@@ -36,42 +36,43 @@ output reg id_ex_dm_r;
 output reg id_ex_dm_w;
 output reg[2:0] id_ex_pc_src_sel;
 
-always@(posedge reset)begin
-    id_ex_instruction <= 0;
-    id_ex_pc_plus4 <= 0;
-    id_ex_gpr_w_sel <= `GPR_XP;
-    id_ex_alu_op <= `ALU_NOP;
-    id_ex_dm_r <= `DM_R_OFF;
-    id_ex_dm_w <= `DM_W_OFF;
-    id_ex_pc_src_sel <= `PCSRC_PLUS4;
-end
-
-always@(posedge clk)begin
-    if(id_ex_flush == `ID_EX_FLUSH_ON)begin
-        id_ex_instruction <= 0;
-        id_ex_pc_plus4 <= 0;
-        id_ex_gpr_w_sel <= `GPR_XP;
-        id_ex_alu_op <= `ALU_NOP;
-        id_ex_dm_r <= `DM_R_OFF;
-        id_ex_dm_w <= `DM_W_OFF;
-        id_ex_pc_src_sel <= `PCSRC_PLUS4;
-        $display("ID_EX_FLUSH_ON");
-    end
-    else begin
-        id_ex_instruction <= if_id_instruction;
-        id_ex_pc_plus4 <= if_id_pc_plus4;
-        id_ex_gpr_rs <= gpr_rs;
-        id_ex_gpr_rt <= gpr_rt;
-        id_ex_ext_out <= ext_out;
-        id_ex_gpr_w_sel <= gpr_w_sel;
-        id_ex_m2r_sel <= m2r_sel;
-        id_ex_alu_src_a_sel <= alu_src_a_sel;
-        id_ex_alu_src_b_sel <= alu_src_b_sel;
-        id_ex_alu_op <= alu_op;
-        id_ex_dm_r <= dm_r;
-        id_ex_dm_w <= dm_w;
-        id_ex_pc_src_sel <= pc_src_sel;
-    end
+always@(posedge clk or posedge reset)begin
+	if(reset)begin
+		id_ex_instruction <= 0;
+		id_ex_pc_plus4 <= 0;
+		id_ex_gpr_w_sel <= `GPR_XP;
+		id_ex_alu_op <= `ALU_NOP;
+		id_ex_dm_r <= `DM_R_OFF;
+		id_ex_dm_w <= `DM_W_OFF;
+		id_ex_pc_src_sel <= `PCSRC_PLUS4;
+	end
+	else begin
+		if(id_ex_flush == `ID_EX_FLUSH_ON)begin
+			id_ex_instruction <= 0;
+			id_ex_pc_plus4 <= 0;
+			id_ex_gpr_w_sel <= `GPR_XP;
+			id_ex_alu_op <= `ALU_NOP;
+			id_ex_dm_r <= `DM_R_OFF;
+			id_ex_dm_w <= `DM_W_OFF;
+			id_ex_pc_src_sel <= `PCSRC_PLUS4;
+			$display("ID_EX_FLUSH_ON");
+		end
+		else begin
+			id_ex_instruction <= if_id_instruction;
+			id_ex_pc_plus4 <= if_id_pc_plus4;
+			id_ex_gpr_rs <= gpr_rs;
+			id_ex_gpr_rt <= gpr_rt;
+			id_ex_ext_out <= ext_out;
+			id_ex_gpr_w_sel <= gpr_w_sel;
+			id_ex_m2r_sel <= m2r_sel;
+			id_ex_alu_src_a_sel <= alu_src_a_sel;
+			id_ex_alu_src_b_sel <= alu_src_b_sel;
+			id_ex_alu_op <= alu_op;
+			id_ex_dm_r <= dm_r;
+			id_ex_dm_w <= dm_w;
+			id_ex_pc_src_sel <= pc_src_sel;
+		end
+	end
 end
 
 endmodule

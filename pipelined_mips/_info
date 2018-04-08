@@ -4,21 +4,21 @@ K3
 cModel Technology
 Z0 dC:\altera\13.0sp1\single_cycle_mips
 vALU
-Z1 !s100 3ShI3=;B>GUQ<bS=Ea>Rm2
-Z2 If]ZZabn4H>?cf2zNmE9KC2
-Z3 V[3I2_eDRiDESCT]Q9[M@f3
-Z4 dC:\altera\13.0sp1\pipelined_mips
-Z5 w1523145509
-Z6 8C:/altera/13.0sp1/pipelined_mips/ALU.v
-Z7 FC:/altera/13.0sp1/pipelined_mips/ALU.v
+Z1 ISQAES2QnC;@CFoHLP_3UT1
+Z2 V[3I2_eDRiDESCT]Q9[M@f3
+Z3 dC:\altera\13.0sp1\pipelined_mips
+Z4 w1523164797
+Z5 8C:/altera/13.0sp1/pipelined_mips/ALU.v
+Z6 FC:/altera/13.0sp1/pipelined_mips/ALU.v
 L0 3
-Z8 OV;L;10.1d;51
+Z7 OV;L;10.1d;51
 r1
 31
-Z9 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/ALU.v|
-Z10 o-work pipelined_mips -O0
-Z11 n@a@l@u
-Z12 !s108 1523147512.917000
+Z8 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/ALU.v|
+Z9 o-work pipelined_mips -O0
+Z10 n@a@l@u
+Z11 !s100 ARKFT0=]ATlPbeaO1aZ;f2
+Z12 !s108 1523164966.005000
 Z13 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/ALU.v|
 !i10b 1
 !s85 0
@@ -27,79 +27,79 @@ vBCTRL
 Z14 !s100 XbZaIYP<?ZKlQ4^FVCH5B3
 Z15 INUG2bSl^1C69W5__G=C^b0
 Z16 VL7dDlGUVR1VYEhlk<Q>CP1
-R4
+R3
 Z17 w1522569560
 Z18 8C:/altera/13.0sp1/pipelined_mips/BCTRL.v
 Z19 FC:/altera/13.0sp1/pipelined_mips/BCTRL.v
 L0 3
-R8
+R7
 r1
 31
 Z20 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/BCTRL.v|
-R10
+R9
 Z21 n@b@c@t@r@l
-Z22 !s108 1523147513.013000
+Z22 !s108 1523164966.103000
 Z23 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/BCTRL.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vCTRL
-Z24 !s100 h01A:U_U=UfbGo=SljEOS3
-Z25 IZl9_EU>?k1c1R@:;?M]KC2
-Z26 VWKO7BlS?kTAko]gKB=Ek00
-R4
-Z27 w1522661747
-Z28 8C:/altera/13.0sp1/pipelined_mips/CTRL.v
-Z29 FC:/altera/13.0sp1/pipelined_mips/CTRL.v
+Z24 ILaHzdf6ljI70^]@nKA:P[0
+Z25 VWKO7BlS?kTAko]gKB=Ek00
+R3
+Z26 w1523164857
+Z27 8C:/altera/13.0sp1/pipelined_mips/CTRL.v
+Z28 FC:/altera/13.0sp1/pipelined_mips/CTRL.v
 L0 4
-R8
+R7
 r1
 31
-Z30 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/CTRL.v|
-R10
-Z31 n@c@t@r@l
-Z32 !s108 1523147513.122000
-Z33 !s107 instruction_def.v|ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/CTRL.v|
+R9
+Z29 n@c@t@r@l
+Z30 !s100 eU<UFC4nKUQJ8ie=aKleX3
+Z31 !s108 1523164966.194000
+Z32 !s107 instruction_def.v|ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/CTRL.v|
+Z33 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/CTRL.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vDM
-Z34 IdF:NJ6l]l7gB34CYKk4b90
-Z35 VU`OWkz?O<[O<4_UnVR6Lc3
-R4
-Z36 w1523147492
-Z37 8C:/altera/13.0sp1/pipelined_mips/DM.v
-Z38 FC:/altera/13.0sp1/pipelined_mips/DM.v
+Z34 !s100 VMP43>[2_iF6di:]lWZ552
+Z35 IdF:NJ6l]l7gB34CYKk4b90
+Z36 VU`OWkz?O<[O<4_UnVR6Lc3
+R3
+Z37 w1523147492
+Z38 8C:/altera/13.0sp1/pipelined_mips/DM.v
+Z39 FC:/altera/13.0sp1/pipelined_mips/DM.v
 L0 3
-R8
+R7
 r1
 31
-Z39 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/DM.v|
-R10
+Z40 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/DM.v|
+R9
 n@d@m
-Z40 !s100 VMP43>[2_iF6di:]lWZ552
-Z41 !s108 1523147513.294000
+Z41 !s108 1523164966.360000
 Z42 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/DM.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vEX_MEM
-Z43 !s100 ]LJ^=H0`?MHeczcz`OF_K0
-Z44 IQU;a81h]7D==:8@IkXW2C2
-Z45 VE<fR><[nhC0e4HoTk5ITm0
-R4
-Z46 w1522569488
-Z47 8C:/altera/13.0sp1/pipelined_mips/EX_MEM.v
-Z48 FC:/altera/13.0sp1/pipelined_mips/EX_MEM.v
+Z43 IhP5779l4k<H`i>;HR3Mec2
+Z44 VE<fR><[nhC0e4HoTk5ITm0
+R3
+Z45 w1523164436
+Z46 8C:\altera\13.0sp1\pipelined_mips\EX_MEM.v
+Z47 FC:\altera\13.0sp1\pipelined_mips\EX_MEM.v
 L0 3
-R8
+R7
 r1
 31
-Z49 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/EX_MEM.v|
-R10
-Z50 n@e@x_@m@e@m
-Z51 !s108 1523147513.404000
-Z52 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/EX_MEM.v|
+R9
+Z48 n@e@x_@m@e@m
+Z49 !s100 1ogQVeSgg4a_1R>960Iz93
+Z50 !s108 1523164966.458000
+Z51 !s107 ctrl_encode_def.v|C:\altera\13.0sp1\pipelined_mips\EX_MEM.v|
+Z52 !s90 -reportprogress|300|-work|pipelined_mips|C:\altera\13.0sp1\pipelined_mips\EX_MEM.v|
 !i10b 1
 !s85 0
 !s101 -O0
@@ -107,18 +107,18 @@ vEXT
 Z53 !s100 c0BiQ22U<>3b8_Z[TBi1z0
 Z54 ILW;]k2a^[]VMJhgjH5[a42
 Z55 VodW`0SAVjE?bbbEUl?IZ71
-R4
+R3
 Z56 w1522569479
 Z57 8C:/altera/13.0sp1/pipelined_mips/EXT.v
 Z58 FC:/altera/13.0sp1/pipelined_mips/EXT.v
 L0 3
-R8
+R7
 r1
 31
 Z59 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/EXT.v|
-R10
+R9
 Z60 n@e@x@t
-Z61 !s108 1523147513.513000
+Z61 !s108 1523164966.561000
 Z62 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/EXT.v|
 !i10b 1
 !s85 0
@@ -127,18 +127,18 @@ vFU
 Z63 !s100 N^3_eXCO]m?0KgJ4:_F5I0
 Z64 I__JdHF@GF=C9Af3dn_:^C1
 Z65 VDnUL@J@I3IVnHGTK:9Sn<1
-R4
+R3
 Z66 w1522640222
 Z67 8C:/altera/13.0sp1/pipelined_mips/FU.v
 Z68 FC:/altera/13.0sp1/pipelined_mips/FU.v
 L0 3
-R8
+R7
 r1
 31
 Z69 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/FU.v|
-R10
+R9
 n@f@u
-Z70 !s108 1523147513.616000
+Z70 !s108 1523164966.659000
 Z71 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/FU.v|
 !i10b 1
 !s85 0
@@ -147,18 +147,18 @@ vGPR
 Z72 !s100 @704Bo6VF=]1Q=d6nEk^i3
 Z73 I6[3Jckk7ai8JfO>A2KzGI3
 Z74 VYQ0`1ihiH_N;j=WH^FgY[1
-R4
-Z75 w1523145575
+R3
+Z75 w1523164046
 Z76 8C:/altera/13.0sp1/pipelined_mips/GPR.v
 Z77 FC:/altera/13.0sp1/pipelined_mips/GPR.v
 L0 3
-R8
+R7
 r1
 31
 Z78 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/GPR.v|
-R10
+R9
 Z79 n@g@p@r
-Z80 !s108 1523147513.725000
+Z80 !s108 1523164966.755000
 Z81 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/GPR.v|
 !i10b 1
 !s85 0
@@ -167,58 +167,58 @@ vHU
 Z82 !s100 ^]cKSE>R:[aE155Zgzh?>3
 Z83 I`Uc1k@Q6@21MTcaYHcLE=2
 Z84 VBU8Q_ceg>Bz4nBIJADPVP3
-R4
+R3
 Z85 w1522635174
 Z86 8C:/altera/13.0sp1/pipelined_mips/HU.v
 Z87 FC:/altera/13.0sp1/pipelined_mips/HU.v
 L0 3
-R8
+R7
 r1
 31
 Z88 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/HU.v|
-R10
+R9
 n@h@u
-Z89 !s108 1523147513.819000
+Z89 !s108 1523164966.848000
 Z90 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/HU.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vID_EX
-Z91 !s100 1hB_>DT01aC=3@dY4lmcm1
-Z92 I6FJl_8eCkK1i>>z<]1ZH[2
+Z91 !s100 =6STifCNV<N7=n^5>lz5<2
+Z92 II7[8k86ZHbc9@Q@_hcKIB0
 Z93 V=V?G^N0@FCXXmfz5H@@;@1
-R4
-Z94 w1523146866
+R3
+Z94 w1523164272
 Z95 8C:/altera/13.0sp1/pipelined_mips/ID_EX.v
 Z96 FC:/altera/13.0sp1/pipelined_mips/ID_EX.v
 L0 3
-R8
+R7
 r1
 31
 Z97 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/ID_EX.v|
-R10
+R9
 Z98 n@i@d_@e@x
-Z99 !s108 1523147513.929000
+Z99 !s108 1523164966.945000
 Z100 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/ID_EX.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vIF_ID
-Z101 !s100 [2k2^m8m<25oJ7B3o`K@O2
-Z102 I3L`9IN?i@=9XJgM7PXF3C1
+Z101 !s100 48Yz38<_0M]UekCDUQhA>3
+Z102 IA[NbDcYCd?HCWOTW78lb91
 Z103 VDMc3D^_?XUGaE5FVh>Ie50
-R4
-Z104 w1523146744
+R3
+Z104 w1523164331
 Z105 8C:/altera/13.0sp1/pipelined_mips/IF_ID.v
 Z106 FC:/altera/13.0sp1/pipelined_mips/IF_ID.v
 L0 3
-R8
+R7
 r1
 31
 Z107 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/IF_ID.v|
-R10
+R9
 Z108 n@i@f_@i@d
-Z109 !s108 1523147514.046000
+Z109 !s108 1523164967.043000
 Z110 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/IF_ID.v|
 !i10b 1
 !s85 0
@@ -227,38 +227,38 @@ vIM
 Z111 !s100 EOWXK?3X;zU83Fck;^lQ03
 Z112 ISPcc<58MmTWP=^LE^LKUl1
 Z113 VI:P]lK]N<f81LR875RKgM0
-R4
+R3
 Z114 w1522661820
 Z115 8C:/altera/13.0sp1/pipelined_mips/IM.v
 Z116 FC:/altera/13.0sp1/pipelined_mips/IM.v
 L0 2
-R8
+R7
 r1
 31
 Z117 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/IM.v|
-R10
+R9
 n@i@m
-Z118 !s108 1523147514.139000
+Z118 !s108 1523164967.140000
 Z119 !s107 C:/altera/13.0sp1/pipelined_mips/IM.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMEM_WB
-Z120 !s100 ET=i2f]zXV2Y7=>?7_M_Y0
-Z121 I5:a]`cOabC@QMoO3AT2SI3
+Z120 !s100 210D=dLinUVIUdH[zMZ<S1
+Z121 I=:@[?Y=`meIi=@Yd4_:552
 Z122 V4D:EkV8<O7Y6VgY8[A>eK0
-R4
-Z123 w1522569342
+R3
+Z123 w1523164474
 Z124 8C:/altera/13.0sp1/pipelined_mips/MEM_WB.v
 Z125 FC:/altera/13.0sp1/pipelined_mips/MEM_WB.v
 L0 3
-R8
+R7
 r1
 31
 Z126 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/MEM_WB.v|
-R10
+R9
 Z127 n@m@e@m_@w@b
-Z128 !s108 1523147514.311000
+Z128 !s108 1523164967.296000
 Z129 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/MEM_WB.v|
 !i10b 1
 !s85 0
@@ -267,37 +267,37 @@ vMIPS
 Z130 !s100 cY7O^H^I8WO=f9dI9NR2c1
 Z131 IX]Ilnb414KggeRKnkX7JX1
 Z132 VK51nQgR8ikNJ]TF[Gh4bi3
-R4
+R3
 Z133 w1522641245
 Z134 8C:/altera/13.0sp1/pipelined_mips/MIPS.v
 Z135 FC:/altera/13.0sp1/pipelined_mips/MIPS.v
 L0 2
-R8
+R7
 r1
 31
 Z136 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/MIPS.v|
-R10
+R9
 Z137 n@m@i@p@s
-Z138 !s108 1523147514.421000
+Z138 !s108 1523164967.387000
 Z139 !s107 C:/altera/13.0sp1/pipelined_mips/MIPS.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vmips_tb
-Z140 I0KSD9;RXD>EXnNPNDUN;K3
-Z141 VHfL@J;=TiSmbe>@j83EoJ0
-R4
-Z142 w1523147105
-Z143 8C:/altera/13.0sp1/pipelined_mips/mips_tb.v
-Z144 FC:/altera/13.0sp1/pipelined_mips/mips_tb.v
+Z140 !s100 [LD8IRkMm2j5]edfnODkl3
+Z141 I0KSD9;RXD>EXnNPNDUN;K3
+Z142 VHfL@J;=TiSmbe>@j83EoJ0
+R3
+Z143 w1523147105
+Z144 8C:/altera/13.0sp1/pipelined_mips/mips_tb.v
+Z145 FC:/altera/13.0sp1/pipelined_mips/mips_tb.v
 L0 1
-R8
+R7
 r1
 31
-Z145 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/mips_tb.v|
-R10
-Z146 !s100 [LD8IRkMm2j5]edfnODkl3
-Z147 !s108 1523147514.514000
+Z146 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/mips_tb.v|
+R9
+Z147 !s108 1523164967.486000
 Z148 !s107 C:/altera/13.0sp1/pipelined_mips/mips_tb.v|
 !i10b 1
 !s85 0
@@ -306,18 +306,18 @@ vMUX_M2R
 Z149 !s100 l`cMg3C<iKTd@VKZULU?[3
 Z150 IeAj_8VDQ`6NPQVL0BH@EN3
 Z151 V;;76gW3F0GAh[2Am4hMlI0
-R4
+R3
 Z152 w1522569332
 Z153 8C:/altera/13.0sp1/pipelined_mips/MUX_M2R.v
 Z154 FC:/altera/13.0sp1/pipelined_mips/MUX_M2R.v
 L0 3
-R8
+R7
 r1
 31
 Z155 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/MUX_M2R.v|
-R10
+R9
 Z156 n@m@u@x_@m2@r
-Z157 !s108 1523147514.630000
+Z157 !s108 1523164967.585000
 Z158 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/MUX_M2R.v|
 !i10b 1
 !s85 0
@@ -326,39 +326,39 @@ vMUX_PC_SRC
 Z159 !s100 kIG[Y]Sf]hLW3<933G<BJ0
 Z160 Ick;:;iJk5^K<3XcXPU_n60
 Z161 VKQQnnkgMgP18RDdic=^[i1
-R4
+R3
 Z162 w1522661893
 Z163 8C:/altera/13.0sp1/pipelined_mips/MUX_PC_SRC.v
 Z164 FC:/altera/13.0sp1/pipelined_mips/MUX_PC_SRC.v
 L0 3
-R8
+R7
 r1
 31
 Z165 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/MUX_PC_SRC.v|
-R10
+R9
 Z166 n@m@u@x_@p@c_@s@r@c
 !i10b 1
 !s85 0
-Z167 !s108 1523147514.740000
+Z167 !s108 1523164967.679000
 Z168 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/MUX_PC_SRC.v|
 !s101 -O0
 vPCU
 !i10b 1
-Z169 !s100 NmMn1Heh1oIlF9B<hIJ?41
-Z170 IoOoBgF10>`KcYgIm_9a^c0
+Z169 !s100 L@Jg[e4I0kI;kn9e@BZ1]1
+Z170 IA5MFWe=N>X1?PKWEO1GHb3
 Z171 V>IKCQCm0lEmXGND0z2]MK2
-R4
-Z172 w1522661899
+R3
+Z172 w1523160417
 Z173 8C:/altera/13.0sp1/pipelined_mips/PC.v
 Z174 FC:/altera/13.0sp1/pipelined_mips/PC.v
 L0 3
-R8
+R7
 r1
 !s85 0
 31
-!s108 1523147514.849000
+!s108 1523164967.772000
 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/PC.v|
 Z175 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/PC.v|
 !s101 -O0
-R10
+R9
 Z176 n@p@c@u

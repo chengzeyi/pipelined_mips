@@ -20,18 +20,20 @@ output reg[1:0] mem_wb_m2r_sel;
 output reg[31:0] mem_wb_alu_result;
 output reg[31:0] mem_wb_dm_r_data;
 
-always@(posedge reset)begin
-    mem_wb_instruction <= 0;
-    mem_wb_gpr_w_sel <= `GPR_XP;
-end
-
-always@(posedge clk)begin
-    mem_wb_instruction <= ex_mem_instruction;
-    mem_wb_pc_plus4 <= ex_mem_pc_plus4;
-    mem_wb_gpr_w_sel <= ex_mem_gpr_w_sel;
-    mem_wb_m2r_sel <= ex_mem_m2r_sel;
-    mem_wb_alu_result <= ex_mem_alu_result;
-    mem_wb_dm_r_data <= dm_r_data;
+always@(posedge clk or posedge reset)begin
+	if(reset)begin
+		mem_wb_instruction <= 0;
+		mem_wb_pc_plus4 <= 0;
+		mem_wb_gpr_w_sel <= `GPR_XP;
+	end
+	else begin
+		mem_wb_instruction <= ex_mem_instruction;
+		mem_wb_pc_plus4 <= ex_mem_pc_plus4;
+		mem_wb_gpr_w_sel <= ex_mem_gpr_w_sel;
+		mem_wb_m2r_sel <= ex_mem_m2r_sel;
+		mem_wb_alu_result <= ex_mem_alu_result;
+		mem_wb_dm_r_data <= dm_r_data;
+	end
 end
 
 endmodule
