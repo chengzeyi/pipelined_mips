@@ -8,7 +8,7 @@ Z1 !s100 3ShI3=;B>GUQ<bS=Ea>Rm2
 Z2 If]ZZabn4H>?cf2zNmE9KC2
 Z3 V[3I2_eDRiDESCT]Q9[M@f3
 Z4 dC:\altera\13.0sp1\pipelined_mips
-Z5 w1522569554
+Z5 w1523145509
 Z6 8C:/altera/13.0sp1/pipelined_mips/ALU.v
 Z7 FC:/altera/13.0sp1/pipelined_mips/ALU.v
 L0 3
@@ -18,7 +18,7 @@ r1
 Z9 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/ALU.v|
 Z10 o-work pipelined_mips -O0
 Z11 n@a@l@u
-Z12 !s108 1522665153.250000
+Z12 !s108 1523147512.917000
 Z13 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/ALU.v|
 !i10b 1
 !s85 0
@@ -38,47 +38,47 @@ r1
 Z20 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/BCTRL.v|
 R10
 Z21 n@b@c@t@r@l
-Z22 !s108 1522665153.355000
+Z22 !s108 1523147513.013000
 Z23 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/BCTRL.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vCTRL
-Z24 !s100 A1U?PzHJT?V_QRiVkX6`20
-Z25 IC7PnP6CmFz_c7m@N2mkGY0
+Z24 !s100 h01A:U_U=UfbGo=SljEOS3
+Z25 IZl9_EU>?k1c1R@:;?M]KC2
 Z26 VWKO7BlS?kTAko]gKB=Ek00
 R4
 Z27 w1522661747
-Z28 8C:\altera\13.0sp1\pipelined_mips\CTRL.v
-Z29 FC:\altera\13.0sp1\pipelined_mips\CTRL.v
+Z28 8C:/altera/13.0sp1/pipelined_mips/CTRL.v
+Z29 FC:/altera/13.0sp1/pipelined_mips/CTRL.v
 L0 4
 R8
 r1
 31
-Z30 !s90 -reportprogress|300|-work|pipelined_mips|C:\altera\13.0sp1\pipelined_mips\CTRL.v|
+Z30 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/CTRL.v|
 R10
 Z31 n@c@t@r@l
-Z32 !s108 1522665153.460000
-Z33 !s107 instruction_def.v|ctrl_encode_def.v|C:\altera\13.0sp1\pipelined_mips\CTRL.v|
+Z32 !s108 1523147513.122000
+Z33 !s107 instruction_def.v|ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/CTRL.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vDM
-Z34 !s100 LMbJ4R:@BNNAaN[z08ZY[2
-Z35 Ic:=5SNni6IldAU:MS5`DP3
-Z36 VU`OWkz?O<[O<4_UnVR6Lc3
+Z34 IdF:NJ6l]l7gB34CYKk4b90
+Z35 VU`OWkz?O<[O<4_UnVR6Lc3
 R4
-Z37 w1522664665
-Z38 8C:/altera/13.0sp1/pipelined_mips/DM.v
-Z39 FC:/altera/13.0sp1/pipelined_mips/DM.v
+Z36 w1523147492
+Z37 8C:/altera/13.0sp1/pipelined_mips/DM.v
+Z38 FC:/altera/13.0sp1/pipelined_mips/DM.v
 L0 3
 R8
 r1
 31
-Z40 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/DM.v|
+Z39 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/DM.v|
 R10
 n@d@m
-Z41 !s108 1522665153.632000
+Z40 !s100 VMP43>[2_iF6di:]lWZ552
+Z41 !s108 1523147513.294000
 Z42 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/DM.v|
 !i10b 1
 !s85 0
@@ -98,7 +98,7 @@ r1
 Z49 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/EX_MEM.v|
 R10
 Z50 n@e@x_@m@e@m
-Z51 !s108 1522665153.735000
+Z51 !s108 1523147513.404000
 Z52 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/EX_MEM.v|
 !i10b 1
 !s85 0
@@ -118,7 +118,7 @@ r1
 Z59 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/EXT.v|
 R10
 Z60 n@e@x@t
-Z61 !s108 1522665153.846000
+Z61 !s108 1523147513.513000
 Z62 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/EXT.v|
 !i10b 1
 !s85 0
@@ -138,7 +138,7 @@ r1
 Z69 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/FU.v|
 R10
 n@f@u
-Z70 !s108 1522665153.955000
+Z70 !s108 1523147513.616000
 Z71 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/FU.v|
 !i10b 1
 !s85 0
@@ -148,7 +148,7 @@ Z72 !s100 @704Bo6VF=]1Q=d6nEk^i3
 Z73 I6[3Jckk7ai8JfO>A2KzGI3
 Z74 VYQ0`1ihiH_N;j=WH^FgY[1
 R4
-Z75 w1522664326
+Z75 w1523145575
 Z76 8C:/altera/13.0sp1/pipelined_mips/GPR.v
 Z77 FC:/altera/13.0sp1/pipelined_mips/GPR.v
 L0 3
@@ -158,7 +158,7 @@ r1
 Z78 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/GPR.v|
 R10
 Z79 n@g@p@r
-Z80 !s108 1522665154.066000
+Z80 !s108 1523147513.725000
 Z81 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/GPR.v|
 !i10b 1
 !s85 0
@@ -178,17 +178,17 @@ r1
 Z88 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/HU.v|
 R10
 n@h@u
-Z89 !s108 1522665154.177000
+Z89 !s108 1523147513.819000
 Z90 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/HU.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vID_EX
-Z91 !s100 2Ef0lo^cN^ChF]abeGg;z2
-Z92 IBQ5INeMC_=NBEA=anci7@2
+Z91 !s100 1hB_>DT01aC=3@dY4lmcm1
+Z92 I6FJl_8eCkK1i>>z<]1ZH[2
 Z93 V=V?G^N0@FCXXmfz5H@@;@1
 R4
-Z94 w1522665137
+Z94 w1523146866
 Z95 8C:/altera/13.0sp1/pipelined_mips/ID_EX.v
 Z96 FC:/altera/13.0sp1/pipelined_mips/ID_EX.v
 L0 3
@@ -198,17 +198,17 @@ r1
 Z97 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/ID_EX.v|
 R10
 Z98 n@i@d_@e@x
-Z99 !s108 1522665154.290000
+Z99 !s108 1523147513.929000
 Z100 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/ID_EX.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vIF_ID
-Z101 !s100 XPJb<T`FO9I]4YJj]j1nW0
-Z102 Ii8[1GU^?hL13U<j:>fjZ:3
+Z101 !s100 [2k2^m8m<25oJ7B3o`K@O2
+Z102 I3L`9IN?i@=9XJgM7PXF3C1
 Z103 VDMc3D^_?XUGaE5FVh>Ie50
 R4
-Z104 w1522665019
+Z104 w1523146744
 Z105 8C:/altera/13.0sp1/pipelined_mips/IF_ID.v
 Z106 FC:/altera/13.0sp1/pipelined_mips/IF_ID.v
 L0 3
@@ -218,7 +218,7 @@ r1
 Z107 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/IF_ID.v|
 R10
 Z108 n@i@f_@i@d
-Z109 !s108 1522665154.397000
+Z109 !s108 1523147514.046000
 Z110 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/IF_ID.v|
 !i10b 1
 !s85 0
@@ -238,7 +238,7 @@ r1
 Z117 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/IM.v|
 R10
 n@i@m
-Z118 !s108 1522665154.504000
+Z118 !s108 1523147514.139000
 Z119 !s107 C:/altera/13.0sp1/pipelined_mips/IM.v|
 !i10b 1
 !s85 0
@@ -258,46 +258,46 @@ r1
 Z126 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/MEM_WB.v|
 R10
 Z127 n@m@e@m_@w@b
-Z128 !s108 1522665154.682000
+Z128 !s108 1523147514.311000
 Z129 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/MEM_WB.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMIPS
-Z130 !s100 Mn>2;TBazm3661ZSZ7PTU2
-Z131 IJRSm4@3D]ngHkn43FBIQM0
+Z130 !s100 cY7O^H^I8WO=f9dI9NR2c1
+Z131 IX]Ilnb414KggeRKnkX7JX1
 Z132 VK51nQgR8ikNJ]TF[Gh4bi3
 R4
 Z133 w1522641245
-Z134 8C:\altera\13.0sp1\pipelined_mips\MIPS.v
-Z135 FC:\altera\13.0sp1\pipelined_mips\MIPS.v
+Z134 8C:/altera/13.0sp1/pipelined_mips/MIPS.v
+Z135 FC:/altera/13.0sp1/pipelined_mips/MIPS.v
 L0 2
 R8
 r1
 31
-Z136 !s90 -reportprogress|300|-work|pipelined_mips|C:\altera\13.0sp1\pipelined_mips\MIPS.v|
+Z136 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/MIPS.v|
 R10
 Z137 n@m@i@p@s
-Z138 !s108 1522665154.795000
-Z139 !s107 C:\altera\13.0sp1\pipelined_mips\MIPS.v|
+Z138 !s108 1523147514.421000
+Z139 !s107 C:/altera/13.0sp1/pipelined_mips/MIPS.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vmips_tb
-Z140 !s100 A8JO?k4UaI@73ReA4HScN1
-Z141 IE]69oWi5PUnnX^aT9mldl0
-Z142 VHfL@J;=TiSmbe>@j83EoJ0
+Z140 I0KSD9;RXD>EXnNPNDUN;K3
+Z141 VHfL@J;=TiSmbe>@j83EoJ0
 R4
-Z143 w1522663337
-Z144 8C:/altera/13.0sp1/pipelined_mips/mips_tb.v
-Z145 FC:/altera/13.0sp1/pipelined_mips/mips_tb.v
+Z142 w1523147105
+Z143 8C:/altera/13.0sp1/pipelined_mips/mips_tb.v
+Z144 FC:/altera/13.0sp1/pipelined_mips/mips_tb.v
 L0 1
 R8
 r1
 31
-Z146 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/mips_tb.v|
+Z145 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/mips_tb.v|
 R10
-Z147 !s108 1522665154.906000
+Z146 !s100 [LD8IRkMm2j5]edfnODkl3
+Z147 !s108 1523147514.514000
 Z148 !s107 C:/altera/13.0sp1/pipelined_mips/mips_tb.v|
 !i10b 1
 !s85 0
@@ -317,7 +317,7 @@ r1
 Z155 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/MUX_M2R.v|
 R10
 Z156 n@m@u@x_@m2@r
-Z157 !s108 1522665155.014000
+Z157 !s108 1523147514.630000
 Z158 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/MUX_M2R.v|
 !i10b 1
 !s85 0
@@ -339,7 +339,7 @@ R10
 Z166 n@m@u@x_@p@c_@s@r@c
 !i10b 1
 !s85 0
-Z167 !s108 1522665155.120000
+Z167 !s108 1523147514.740000
 Z168 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/MUX_PC_SRC.v|
 !s101 -O0
 vPCU
@@ -356,7 +356,7 @@ R8
 r1
 !s85 0
 31
-!s108 1522665155.226000
+!s108 1523147514.849000
 !s107 ctrl_encode_def.v|C:/altera/13.0sp1/pipelined_mips/PC.v|
 Z175 !s90 -reportprogress|300|-work|pipelined_mips|C:/altera/13.0sp1/pipelined_mips/PC.v|
 !s101 -O0

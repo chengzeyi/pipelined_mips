@@ -38,6 +38,7 @@ output reg[2:0] id_ex_pc_src_sel;
 
 always@(posedge reset)begin
     id_ex_instruction <= 0;
+    id_ex_pc_plus4 <= 0;
     id_ex_gpr_w_sel <= `GPR_XP;
     id_ex_alu_op <= `ALU_NOP;
     id_ex_dm_r <= `DM_R_OFF;
@@ -47,6 +48,8 @@ end
 
 always@(posedge clk)begin
     if(id_ex_flush == `ID_EX_FLUSH_ON)begin
+        id_ex_instruction <= 0;
+        id_ex_pc_plus4 <= 0;
         id_ex_gpr_w_sel <= `GPR_XP;
         id_ex_alu_op <= `ALU_NOP;
         id_ex_dm_r <= `DM_R_OFF;

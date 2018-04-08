@@ -11,12 +11,12 @@ output reg[31:0] data_out;
 
 reg	[31:0]		data_mem[1023:0];
 
-always@(posedge clk)begin
-	if(dm_w == `DM_W_ON)begin
-		data_mem[data_address[6:2]] <= data_in;
+always@(clk)begin
+    if(clk && dm_w == `DM_W_ON)begin
+        data_mem[data_address[6:2]] <= data_in;
         $display("DM_WRITE: DM[%8X]=%8X", data_address, data_in);
     end
-    if(dm_r == `DM_R_ON)begin
+    if((!clk) && dm_r == `DM_R_ON)begin
         data_out <= data_mem[data_address[6:2]];
     end
 end

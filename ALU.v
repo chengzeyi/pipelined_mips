@@ -11,7 +11,7 @@ output reg[31:0] alu_result;
 reg[31:0] temp;
 
 initial begin
-  temp <= 0;
+	temp <= 0;
 end
 
 always@(alu_src_a or alu_src_b or alu_op)begin
@@ -47,52 +47,52 @@ always@(alu_src_a or alu_src_b or alu_op)begin
 			if($signed(alu_src_a) < $signed(alu_src_b))begin
 				alu_result <= 1;
 			end
-            else begin
-                alu_result <= 0;
-            end
+			else begin
+				alu_result <= 0;
+			end
 		end
 		`ALU_SLTU:begin
 			if($unsigned(alu_src_a) < $unsigned(alu_src_b))begin
 				alu_result <= 1;
 			end
-            else begin
-                alu_result <= 0;
-            end
+			else begin
+				alu_result <= 0;
+			end
 		end
 		`ALU_EQL:begin
-            if(alu_src_a == alu_src_b)begin
-                alu_result <= 1;
-            end
-            else begin
-                alu_result <= 0;
-            end
+			if(alu_src_a == alu_src_b)begin
+				alu_result <= 1;
+			end
+			else begin
+				alu_result <= 0;
+			end
 		end
 		`ALU_BNE:begin
-            if(alu_src_a != alu_src_b)begin
-                alu_result <= 1;
-            end
-            else begin
-                alu_result <= 0;
-            end
+			if(alu_src_a != alu_src_b)begin
+				alu_result <= 1;
+			end
+			else begin
+				alu_result <= 0;
+			end
 		end
 		`ALU_SLL:begin
-		  alu_result = alu_src_b;
-		  for(temp = 0; temp < alu_src_a; temp = temp + 1)begin
-		    alu_result = alu_result << 1;
-		  end
+			alu_result = alu_src_b;
+			for(temp = 0; temp < alu_src_a; temp = temp + 1)begin
+				alu_result = alu_result << 1;
+			end
 		end
 		`ALU_SRL:begin
-		  alu_result = alu_src_b;
-		  for(temp = 0; temp < alu_src_a; temp = temp + 1)begin
-		    alu_result = alu_result >> 1;
-		  end
+			alu_result = alu_src_b;
+			for(temp = 0; temp < alu_src_a; temp = temp + 1)begin
+				alu_result = alu_result >> 1;
+			end
 		end
 		`ALU_SRA:begin
-		  alu_result = alu_src_b;
-		  for(temp = 0; temp < alu_src_a; temp = temp + 1)begin
-		    alu_result = alu_result >> 1;
-		    alu_result[31] = alu_result[30];
-		  end
+			alu_result = alu_src_b;
+			for(temp = 0; temp < alu_src_a; temp = temp + 1)begin
+				alu_result = alu_result >> 1;
+				alu_result[31] = alu_result[30];
+			end
 		end
 	endcase
 end
