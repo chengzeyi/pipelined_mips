@@ -1,4 +1,3 @@
-
 module MIPS(reset, clk);
 
 input reset;

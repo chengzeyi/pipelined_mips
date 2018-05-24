@@ -1,4 +1,3 @@
-
 module IM(ins_address, instruction);
 
 input	[31:0]		ins_address; //指令地址

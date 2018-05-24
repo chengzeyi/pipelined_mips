@@ -5,6 +5,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	ALU
 
+} {} {}} C:/Users/cheng/source/repos/pipelined_mips/IF_ID.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/IF_ID.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
 } {} {}} C:/Users/cheng/source/repos/pipelined_mips/PC.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/PC.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module PCU
@@ -18,13 +25,6 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	MUX_PC_SRC
-
-} {} {}} C:/Users/cheng/source/repos/pipelined_mips/IF_ID.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/IF_ID.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module IF_ID
-
-Top level modules:
-	IF_ID
 
 } {} {}} C:/Users/cheng/source/repos/pipelined_mips/EX_MEM.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/EX_MEM.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -54,13 +54,6 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	FU
 
-} {} {}} C:/Users/cheng/source/repos/pipelined_mips/HU.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/HU.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module HU
-
-Top level modules:
-	HU
-
 } {} {}} C:/Users/cheng/source/repos/pipelined_mips/CTRL.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/CTRL.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module CTRL
@@ -68,12 +61,12 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	CTRL
 
-} {} {}} C:/Users/cheng/source/repos/pipelined_mips/mips_tb.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/mips_tb.v
+} {} {}} C:/Users/cheng/source/repos/pipelined_mips/HU.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/HU.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module mips_tb
+-- Compiling module HU
 
 Top level modules:
-	mips_tb
+	HU
 
 } {} {}} C:/Users/cheng/source/repos/pipelined_mips/IM.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/IM.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -81,6 +74,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	IM
+
+} {} {}} C:/Users/cheng/source/repos/pipelined_mips/mips_tb.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/mips_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mips_tb
+
+Top level modules:
+	mips_tb
 
 } {} {}} C:/Users/cheng/source/repos/pipelined_mips/MEM_WB.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/MEM_WB.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -96,10 +96,10 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	BCTRL
 
-} {} {}} C:/Users/cheng/source/repos/pipelined_mips/instruction_def.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/instruction_def.v
+} {} {}} C:/Users/cheng/source/repos/pipelined_mips/ctrl_encode_def.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/ctrl_encode_def.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
-} {} {}} C:/Users/cheng/source/repos/pipelined_mips/ctrl_encode_def.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/ctrl_encode_def.v
+} {} {}} C:/Users/cheng/source/repos/pipelined_mips/instruction_def.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/instruction_def.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 } {} {}} C:/Users/cheng/source/repos/pipelined_mips/MIPS.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/MIPS.v
@@ -109,12 +109,12 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	MIPS
 
-} {} {}} C:/Users/cheng/source/repos/pipelined_mips/ID_EX.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/ID_EX.v
+} {} {}} C:/Users/cheng/source/repos/pipelined_mips/DM.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/DM.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module ID_EX
+-- Compiling module DM
 
 Top level modules:
-	ID_EX
+	DM
 
 } {} {}} C:/Users/cheng/source/repos/pipelined_mips/EXT.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/EXT.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -123,11 +123,11 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	EXT
 
-} {} {}} C:/Users/cheng/source/repos/pipelined_mips/DM.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/DM.v
+} {} {}} C:/Users/cheng/source/repos/pipelined_mips/ID_EX.v {1 {vlog -work work C:/Users/cheng/source/repos/pipelined_mips/ID_EX.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module DM
+-- Compiling module ID_EX
 
 Top level modules:
-	DM
+	ID_EX
 
 } {} {}}

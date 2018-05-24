@@ -19,7 +19,7 @@ n@a@l@u
 !i10b 1
 !s100 >aWoS:`8nzD8BPM<]CM=W1
 !s85 0
-!s108 1523368208.620000
+!s108 1525325928.525000
 !s107 ctrl_encode_def.v|C:/Users/cheng/source/repos/pipelined_mips/ALU.v|
 !s90 -reportprogress|300|-work|work|C:/Users/cheng/source/repos/pipelined_mips/ALU.v|
 !s101 -O0
@@ -39,7 +39,7 @@ n@b@c@t@r@l
 !i10b 1
 !s100 Vh3R6>9[zUT^MKQk0_A9W3
 !s85 0
-!s108 1523368208.714000
+!s108 1525325928.735000
 !s107 ctrl_encode_def.v|C:/Users/cheng/source/repos/pipelined_mips/BCTRL.v|
 !s90 -reportprogress|300|-work|work|C:/Users/cheng/source/repos/pipelined_mips/BCTRL.v|
 !s101 -O0
@@ -47,7 +47,7 @@ vCTRL
 ICV_`:21e:L52mm<RRSG=V1
 VWKO7BlS?kTAko]gKB=Ek00
 R3
-w1523164857
+w1525233976
 8C:/Users/cheng/source/repos/pipelined_mips/CTRL.v
 FC:/Users/cheng/source/repos/pipelined_mips/CTRL.v
 L0 4
@@ -59,7 +59,7 @@ n@c@t@r@l
 !i10b 1
 !s100 <oZ9MkAkD>cdWia[JTZl;2
 !s85 0
-!s108 1523368208.792000
+!s108 1525325928.936000
 !s107 instruction_def.v|ctrl_encode_def.v|C:/Users/cheng/source/repos/pipelined_mips/CTRL.v|
 !s90 -reportprogress|300|-work|work|C:/Users/cheng/source/repos/pipelined_mips/CTRL.v|
 !s101 -O0
@@ -79,7 +79,7 @@ n@d@m
 !i10b 1
 !s100 EYGCbBZ97BCK0nVl?j59J1
 !s85 0
-!s108 1523368208.948000
+!s108 1525325929.325000
 !s107 ctrl_encode_def.v|C:/Users/cheng/source/repos/pipelined_mips/DM.v|
 !s90 -reportprogress|300|-work|work|C:/Users/cheng/source/repos/pipelined_mips/DM.v|
 !s101 -O0
@@ -99,7 +99,7 @@ n@e@x_@m@e@m
 !i10b 1
 !s100 e1K2z5zAM8jGj1KWg05Pg2
 !s85 0
-!s108 1523368209.042000
+!s108 1525325929.528000
 !s107 ctrl_encode_def.v|C:/Users/cheng/source/repos/pipelined_mips/EX_MEM.v|
 !s90 -reportprogress|300|-work|work|C:/Users/cheng/source/repos/pipelined_mips/EX_MEM.v|
 !s101 -O0
@@ -119,7 +119,7 @@ n@e@x@t
 !i10b 1
 !s100 QbfSkIda0G3bUWPAiP:2d0
 !s85 0
-!s108 1523368209.136000
+!s108 1525325929.729000
 !s107 ctrl_encode_def.v|C:/Users/cheng/source/repos/pipelined_mips/EXT.v|
 !s90 -reportprogress|300|-work|work|C:/Users/cheng/source/repos/pipelined_mips/EXT.v|
 !s101 -O0
@@ -139,7 +139,7 @@ n@f@u
 !i10b 1
 !s100 KU;ALD`z6ZOY;aegfi6j?2
 !s85 0
-!s108 1523368209.230000
+!s108 1525325929.942000
 !s107 ctrl_encode_def.v|C:/Users/cheng/source/repos/pipelined_mips/FU.v|
 !s90 -reportprogress|300|-work|work|C:/Users/cheng/source/repos/pipelined_mips/FU.v|
 !s101 -O0
@@ -159,7 +159,7 @@ n@g@p@r
 !i10b 1
 !s100 =M?3_8XM@eDS^n8Sm4SBn1
 !s85 0
-!s108 1523368209.339000
+!s108 1525325930.147000
 !s107 ctrl_encode_def.v|C:/Users/cheng/source/repos/pipelined_mips/GPR.v|
 !s90 -reportprogress|300|-work|work|C:/Users/cheng/source/repos/pipelined_mips/GPR.v|
 !s101 -O0
@@ -179,7 +179,7 @@ n@h@u
 !i10b 1
 !s100 giFCfPcS?A^d8mPm2>]0P2
 !s85 0
-!s108 1523368209.433000
+!s108 1525325930.344000
 !s107 ctrl_encode_def.v|C:/Users/cheng/source/repos/pipelined_mips/HU.v|
 !s90 -reportprogress|300|-work|work|C:/Users/cheng/source/repos/pipelined_mips/HU.v|
 !s101 -O0
@@ -199,15 +199,15 @@ n@i@d_@e@x
 !i10b 1
 !s100 N;Ya5L90IXFUC2IabD7891
 !s85 0
-!s108 1523368209.527000
+!s108 1525325930.542000
 !s107 ctrl_encode_def.v|C:/Users/cheng/source/repos/pipelined_mips/ID_EX.v|
 !s90 -reportprogress|300|-work|work|C:/Users/cheng/source/repos/pipelined_mips/ID_EX.v|
 !s101 -O0
 vIF_ID
-INYlmAjkzZHIgaRa8dPjD?1
+I:fgg5PDClg1WX^AC9E?[21
 VDMc3D^_?XUGaE5FVh>Ie50
 R3
-w1523164331
+w1525325911
 8C:/Users/cheng/source/repos/pipelined_mips/IF_ID.v
 FC:/Users/cheng/source/repos/pipelined_mips/IF_ID.v
 L0 3
@@ -217,29 +217,29 @@ r1
 R2
 n@i@f_@i@d
 !i10b 1
-!s100 5c4[XAzjQe:8gRTZRKPOS1
+!s100 CP^BF`62XU1HGi@9g9_E=1
 !s85 0
-!s108 1523368209.620000
+!s108 1525325930.743000
 !s107 ctrl_encode_def.v|C:/Users/cheng/source/repos/pipelined_mips/IF_ID.v|
 !s90 -reportprogress|300|-work|work|C:/Users/cheng/source/repos/pipelined_mips/IF_ID.v|
 !s101 -O0
 vIM
-I6GLzhIA67nmcS@JnQO:872
+I@=2Ha:f]?H9RgZc[^UAl^2
 VI:P]lK]N<f81LR875RKgM0
 R3
-w1522661820
+w1525246542
 8C:/Users/cheng/source/repos/pipelined_mips/IM.v
 FC:/Users/cheng/source/repos/pipelined_mips/IM.v
-L0 2
+L0 1
 R1
 r1
 31
 R2
 n@i@m
 !i10b 1
-!s100 0PW]fUM9OA8@acSLoh7=M2
+!s100 4S^[SiXm=_[<4SbMMW5Xa0
 !s85 0
-!s108 1523368209.699000
+!s108 1525325930.942000
 !s107 C:/Users/cheng/source/repos/pipelined_mips/IM.v|
 !s90 -reportprogress|300|-work|work|C:/Users/cheng/source/repos/pipelined_mips/IM.v|
 !s101 -O0
@@ -259,27 +259,27 @@ n@m@e@m_@w@b
 !i10b 1
 !s100 XlhkaVz<TVP;2aod^dHlL2
 !s85 0
-!s108 1523368209.870000
+!s108 1525325931.325000
 !s107 ctrl_encode_def.v|C:/Users/cheng/source/repos/pipelined_mips/MEM_WB.v|
 !s90 -reportprogress|300|-work|work|C:/Users/cheng/source/repos/pipelined_mips/MEM_WB.v|
 !s101 -O0
 vMIPS
-IWed5_81]oMgX_bGNMglNf1
+Ii>e2XP<PZn?]7d1h9cT7=3
 VK51nQgR8ikNJ]TF[Gh4bi3
 R3
-w1522641245
+w1525248221
 8C:/Users/cheng/source/repos/pipelined_mips/MIPS.v
 FC:/Users/cheng/source/repos/pipelined_mips/MIPS.v
-L0 2
+L0 1
 R1
 r1
 31
 R2
 n@m@i@p@s
 !i10b 1
-!s100 niPi`gZU_22i92D2SP8j:1
+!s100 1hO2Vk]5FN@09Q7R1QjRR0
 !s85 0
-!s108 1523368209.964000
+!s108 1525325931.525000
 !s107 C:/Users/cheng/source/repos/pipelined_mips/MIPS.v|
 !s90 -reportprogress|300|-work|work|C:/Users/cheng/source/repos/pipelined_mips/MIPS.v|
 !s101 -O0
@@ -298,7 +298,7 @@ R2
 !i10b 1
 !s100 j^M63bKIb>b1kd^=]jH0K2
 !s85 0
-!s108 1523368210.058000
+!s108 1525325931.731000
 !s107 C:/Users/cheng/source/repos/pipelined_mips/mips_tb.v|
 !s90 -reportprogress|300|-work|work|C:/Users/cheng/source/repos/pipelined_mips/mips_tb.v|
 !s101 -O0
@@ -318,7 +318,7 @@ n@m@u@x_@m2@r
 !i10b 1
 !s100 9>4=zGB=Yo27WfaYo<6R80
 !s85 0
-!s108 1523368210.152000
+!s108 1525325931.937000
 !s107 ctrl_encode_def.v|C:/Users/cheng/source/repos/pipelined_mips/MUX_M2R.v|
 !s90 -reportprogress|300|-work|work|C:/Users/cheng/source/repos/pipelined_mips/MUX_M2R.v|
 !s101 -O0
@@ -338,7 +338,7 @@ n@m@u@x_@p@c_@s@r@c
 !i10b 1
 !s100 md4<fIcWYUdf<?PYzEYN>0
 !s85 0
-!s108 1523368210.245000
+!s108 1525325932.139000
 !s107 ctrl_encode_def.v|C:/Users/cheng/source/repos/pipelined_mips/MUX_PC_SRC.v|
 !s90 -reportprogress|300|-work|work|C:/Users/cheng/source/repos/pipelined_mips/MUX_PC_SRC.v|
 !s101 -O0
@@ -356,7 +356,7 @@ R1
 r1
 !s85 0
 31
-!s108 1523368210.339000
+!s108 1525325932.336000
 !s107 ctrl_encode_def.v|C:/Users/cheng/source/repos/pipelined_mips/PC.v|
 !s90 -reportprogress|300|-work|work|C:/Users/cheng/source/repos/pipelined_mips/PC.v|
 !s101 -O0
